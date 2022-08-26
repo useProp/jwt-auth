@@ -2,7 +2,7 @@ import React, {useContext, useEffect, useState} from 'react';
 import LoginForm from "./components/LoginForm";
 import {observer} from "mobx-react-lite";
 import {Context} from "./index";
-import {UserInterface} from "../models/User.interface";
+import {UserInterface} from "./models/User.interface";
 import UserService from "./services/UserService";
 
 function App() {
